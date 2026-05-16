@@ -4,10 +4,13 @@
  */
 package models;
 
+public class SmokeSensor extends Sensor {
 /**
- *
- * @author ghalia
- */
-public class SmokeSensor {
-    
+     * Constructor
+     */
+    public SmokeSensor(String zone) {
+
+        super("Smoke Sensor", zone);
+
+    }
 }
